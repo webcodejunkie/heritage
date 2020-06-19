@@ -223,52 +223,57 @@ footer {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 840px) {
-    .main {
-        font-size: 1rem;
-    }
+@media screen and (min-width: 300px) {
 
-    .footer_main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
+.nav_links {
+    font-size: 2.5rem;
+}
 
-    footer {
-        padding: 1rem;
-    }
+.main {
+  font-size: 1rem;
+}
 
-    .footer_info {
-        padding: 0;
-    }
+.footer_main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
 
-    .display_menuinfo {
-        font-size: 1rem;
-        padding: 0;
-        align-self: center;
-    }
+footer {
+   padding: 1rem;
+}
 
-    div > .menu_items > p {
-        font-size: 1.2rem;
-    }
+.footer_info {
+   padding: 0;
+}
 
-    .main2 {
-        display: flex;
-        flex-direction: column;
-    }
+.display_menuinfo {
+   font-size: 1rem;
+   padding: 0;
+   align-self: center;
+}
 
-    .sidebar_main {
-        display: flex;
-        flex-direction: row;
-    }
+div > .menu_items > p {
+   font-size: 1.2rem;
+}
 
-    .sidebar_nav {
-        align-self: center;
-    }
+.main2 {
+   display: flex;
+   flex-direction: column;
+}
 
-    .sidebar_links {
-        font-size: 3rem;
-        padding: 1rem;
-    }
+.sidebar_main {
+   display: flex;
+   flex-direction: row;
+}
+
+.sidebar_nav {
+   align-self: center;
+}
+
+.sidebar_links {
+   font-size: 2.5rem;
+   padding: 1rem;
+}
 }
