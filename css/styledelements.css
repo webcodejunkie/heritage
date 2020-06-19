@@ -1,0 +1,38 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+i {
+    font-size: 4rem;
+    color: white;
+    transition: 200ms;
+}
+
+i:hover {
+    color: black;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 150px;
+}
+
+a:hover {
+    color: coral;
+    transition: 200ms;
+}
+
+hr {
+    width: 250px;
+    color: lightgray;
+}

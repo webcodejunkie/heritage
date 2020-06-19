@@ -1,0 +1,274 @@
+﻿@import 'styledelements.css';
+@import 'menu.css';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('css imgs/banner3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Satisfy', cursive;
+}
+
+.nav_links {
+    flex-wrap: wrap;
+    padding: .2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+    color: white;
+}
+
+.logo {
+    font-size: 2.5rem;
+    letter-spacing: .3rem;
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+.nav_brand {
+    padding: 1rem;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side_links {
+    color: dimgray;
+    padding: 20px;
+    display: block;
+    background-color: white;
+}
+
+.mid_content {
+}
+
+.mid_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_content {
+    background: url('css imgs/banner2.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    font-weight: 400;
+    height: auto;
+    padding: 6rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: aliceblue;
+}
+
+.hbanners {
+    padding: 1rem;
+    margin: 1rem;
+    letter-spacing: .4rem;
+    color: aliceblue;
+}
+
+.border_lines {
+    border-left: 4px solid #d1d1e0;
+}
+
+.discover_menu {
+    padding: .8rem;
+    font-family: 'Itim', cursive;
+    font-size: 1.4rem;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    border-radius: 5rem;
+    width: 7rem;
+    outline: none;
+    background-color: #3366ff;
+    box-shadow: 3px 3px 6px black;
+    color: white;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: black;
+    transition: 200ms;
+}
+
+.social_links {
+    padding: 2rem;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.footer_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #737373;
+    height: auto;
+    padding: 10px;
+}
+
+.footer_nav {
+    padding: 20px;
+}
+
+.main_footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_links {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.footer_info {
+    padding: 20px;
+    text-align: center;
+}
+
+.info_style {
+    padding: 10px;
+    font-family: 'Itim', cursive;
+    font-size: 1.2rem;
+}
+
+.copyright_text {
+    padding: 20px;
+}
+
+.fa-directions {
+    color: dodgerblue;
+}
+
+@media screen and (min-width: 1024px) {
+    .nav_links {
+        padding: 0;
+        font-size: 1.3rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .display_menuinfo {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    div > .menu_choices > ul > li > p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav {
+        height: auto;
+    }
+
+    .nav_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_links {
+        display: block;
+        text-align: center;
+    }
+
+    .main_nav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        font-size: 1.2rem;
+    }
+
+    .display_menuinfo {
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 840px) {
+    .main {
+        font-size: 1rem;
+    }
+
+    .footer_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    .footer_info {
+        padding: 0;
+    }
+
+    .display_menuinfo {
+        font-size: 1rem;
+        padding: 0;
+        align-self: center;
+    }
+
+    div > .menu_items > p {
+        font-size: 1.2rem;
+    }
+
+    .main2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar_main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar_nav {
+        align-self: center;
+    }
+
+    .sidebar_links {
+        font-size: .8rem;
+        padding: 1rem;
+    }
+}
