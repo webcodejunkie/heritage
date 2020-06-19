@@ -223,7 +223,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 840px) {
+@media screen and (min-width: 300px) and (max-width: 840px) {
     .main {
         font-size: 1rem;
     }
@@ -268,7 +268,7 @@ footer {
     }
 
     .sidebar_links {
-        font-size: .8rem;
+        font-size: 3rem;
         padding: 1rem;
     }
 }
