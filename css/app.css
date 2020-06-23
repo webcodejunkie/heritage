@@ -178,51 +178,51 @@ footer {
     width: 100%;
 }
 
-    .main_nav {
-        background: rgba(0, 0, 0, .4);
-        border-radius: 10px;
-        display: flex;
-        padding: 0px 20px;
-        max-height: 0;
-        overflow: hidden;
-    }
+.main_nav {
+   background: rgba(0, 0, 0, .4);
+   border-radius: 10px;
+   display: flex;
+   padding: 0px 20px;
+   max-height: 0;
+   overflow: hidden;
+}
 
-    .nav_links {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        font-size: 1.7rem;
-        letter-spacing: .3rem;
-        color: white;
-    }
+.nav_links {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+   font-size: 1.7rem;
+   letter-spacing: .3rem;
+   color: white;
+}
 
-    .logo {
-        font-size: 2.4rem;
-        letter-spacing: .3rem;
-        color: white;
-    }
+.logo {
+   font-size: 2.4rem;
+   letter-spacing: .3rem;
+   color: white;
+}
 
-    .nav_brand {
-        padding: 1rem;
-        text-align: center;
-    }
+.nav_brand {
+   padding: 1rem;
+   text-align: center;
+}
 
-    label:hover {
-        color: white;
-    }
+label:hover {
+   color: white;
+}
 
-    .collaspe_menu {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
+.collaspe_menu {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+}
 
-        .collaspe_menu label {
-            text-align: center;
-            display: block;
-            cursor: pointer;
-        }
+.collaspe_menu label {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
 
 label {
     padding: 10px;
@@ -253,6 +253,14 @@ input#menu {
 
 .fa-facebook {
     font-size: 4.5rem;
+}
+
+.display_menuinfo {
+    padding: 0;
+}
+
+.menu_content {
+    padding: 0;
 }
 
 }
