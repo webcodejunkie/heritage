@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Itim', cursive;
 }
 
 header {
@@ -12,60 +13,68 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.main_nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     font-family: 'Satisfy', cursive;
 }
 
+.main_nav {
+    border-radius: 10px;
+    display: flex;
+    padding: 0px 20px;
+}
+
 .nav_links {
-    flex-wrap: wrap;
-    padding: .2rem;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     letter-spacing: .3rem;
     color: white;
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     letter-spacing: .3rem;
-    font-family: 'Satisfy', cursive;
     color: white;
 }
 
 .nav_brand {
     padding: 1rem;
+    text-align: center;
+}
+
+label:hover {
+    color: white;
+}
+
+.collaspe_menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.collaspe_menu label {
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+label {
+    display: none;
+    padding: 10px;
+}
+
+input#menu {
+    display: none;
 }
 
 .nav_container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.side_links {
-    color: dimgray;
-    padding: 20px;
-    display: block;
-    background-color: white;
-}
-
-.mid_content {
-}
-
-.mid_container {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 2rem;
 }
 
 .main_content {
     background: url('css imgs/banner2.jpg') center no-repeat;
     background-size: cover;
-    width: 100%;
     margin-top: 1rem;
 }
 
@@ -73,43 +82,35 @@ header {
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 2rem;
     height: auto;
     padding: 6rem;
     text-align: center;
+    color: black;
     font-family: 'Satisfy', cursive;
-    color: aliceblue;
 }
 
 .hbanners {
     padding: 1rem;
     margin: 1rem;
     letter-spacing: .4rem;
-    color: aliceblue;
+    color: #ffffff;
+    background: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+
 }
 
 .border_lines {
-    border-left: 4px solid #d1d1e0;
+    border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
 }
 
 .discover_menu {
-    padding: .8rem;
-    font-family: 'Itim', cursive;
-    font-size: 1.4rem;
-    font-variant: small-caps;
-    letter-spacing: 1px;
-    border-radius: 5rem;
-    width: 7rem;
-    outline: none;
-    background-color: #3366ff;
-    box-shadow: 3px 3px 6px black;
-    color: white;
+    color: dodgerblue;
 }
 
-button:hover {
-    background-color: aliceblue;
-    color: black;
+.discover_menu:hover {
+    color: red;
     transition: 200ms;
 }
 
@@ -119,29 +120,23 @@ button:hover {
 
 footer {
     margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
 }
 
 .footer_main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     background-color: #737373;
     height: auto;
-    padding: 10px;
-}
-
-.footer_nav {
-    padding: 20px;
+    padding: 3rem;
 }
 
 .main_footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .footer_links {
-    font-family: 'Satisfy', cursive;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     display: block;
     text-align: center;
     padding: 10px;
@@ -149,17 +144,16 @@ footer {
 }
 
 .footer_info {
-    padding: 20px;
     text-align: center;
 }
 
 .info_style {
     padding: 10px;
-    font-family: 'Itim', cursive;
-    font-size: 1.2rem;
 }
 
 .copyright_text {
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -167,113 +161,98 @@ footer {
     color: dodgerblue;
 }
 
-@media screen and (min-width: 1024px) {
-    .nav_links {
-        padding: 0;
-        font-size: 1.3rem;
-    }
-
-    .logo {
-        font-size: 1.5rem;
-    }
-
-    .main {
-        padding: 2rem;
-        font-size: 1.5rem;
-    }
-
-    .display_menuinfo {
-        font-size: 1rem;
-        padding: 10px;
-    }
-
-    div > .menu_choices > ul > li > p {
-        font-size: 1.2rem;
-    }
+.fa-facebook {
+    font-size: 5.5rem;
 }
 
-@media screen and (max-width: 1024px) {
-    nav {
-        height: auto;
-    }
 
-    .nav_container {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .nav_links {
-        display: block;
-        text-align: center;
-    }
 
-    .main_nav {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 
-    .main {
-        font-size: 1.2rem;
-    }
-
-    .display_menuinfo {
-        font-size: 1rem;
-        padding: 0;
-    }
-}
-
-@media screen and (min-width: 300px) {
-
-.nav_links {
-    font-size: 2.5rem;
-}
-
-.main {
-  font-size: 1rem;
-}
-
-.footer_main {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   padding: 20px;
-}
-
-footer {
-   padding: 1rem;
-}
-
-.footer_info {
-   padding: 0;
-}
-
-.display_menuinfo {
-   font-size: 1rem;
-   padding: 0;
-   align-self: center;
-}
-
-div > .menu_items > p {
-   font-size: 1.2rem;
-}
-
-.main2 {
-   display: flex;
-   flex-direction: column;
-}
-
+@media screen and (max-width: 768px) {
 .sidebar_main {
-   display: flex;
-   flex-direction: row;
+    flex-direction: column;
 }
 
 .sidebar_nav {
-   align-self: center;
+    width: 100%;
 }
 
-.sidebar_links {
-   font-size: 2.5rem;
-   padding: 1rem;
+    .main_nav {
+        background: rgba(0, 0, 0, .4);
+        border-radius: 10px;
+        display: flex;
+        padding: 0px 20px;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .nav_links {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        font-size: 1.7rem;
+        letter-spacing: .3rem;
+        color: white;
+    }
+
+    .logo {
+        font-size: 2.4rem;
+        letter-spacing: .3rem;
+        color: white;
+    }
+
+    .nav_brand {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    label:hover {
+        color: white;
+    }
+
+    .collaspe_menu {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+        .collaspe_menu label {
+            text-align: center;
+            display: block;
+            cursor: pointer;
+        }
+
+label {
+    padding: 10px;
 }
+
+input:checked ~ .main_nav {
+    max-height: 100%;
+}
+
+input#menu {
+    display: none;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    }
+.main {
+    font-size: 1.3rem;
+}
+
+.discover_menu {
+    padding: .7rem;
+
+}
+
+.fa-facebook {
+    font-size: 4.5rem;
+}
+
 }

@@ -23,9 +23,6 @@ a {
     text-decoration: none;
 }
 
-nav {
-    height: 150px;
-}
 
 a:hover {
     color: coral;
@@ -37,6 +34,7 @@ hr {
     color: lightgray;
 }
 
-html {
-    height: 1387px;
+.fa-bars {
+    color: white;
+    font-size: 2.8rem;
 }
