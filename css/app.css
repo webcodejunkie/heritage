@@ -9,15 +9,18 @@ body {
 }
 
 header {
-    background-image: url('css imgs/banner3.jpeg');
+    background-image: url('css imgs/footer.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Satisfy', cursive;
 }
 
+.nav_container {
+    background: rgba(0, 0, 0, .5);
+}
+
 .main_nav {
-    border-radius: 10px;
     display: flex;
     padding: 0px 20px;
 }
@@ -155,7 +158,8 @@ footer {
 }
 
 .footer_main {
-    background-color: #737373;
+    background: url('css imgs/banner3.jpeg') no-repeat center;
+    background-size: cover;
     height: auto;
     padding: 3rem;
 }
@@ -170,7 +174,7 @@ footer {
     display: block;
     text-align: center;
     padding: 10px;
-    color: black;
+    color: aliceblue;
 }
 
 .footer_info {
@@ -187,6 +191,12 @@ footer {
     padding: 20px;
 }
 
+.footer_cwrapper {
+    background: rgba(0, 0, 0, .5);
+    padding: .5rem;
+    color: aliceblue;
+}
+
 .fa-directions {
     color: dodgerblue;
 }
@@ -199,11 +209,16 @@ div > .farm_location > h3 {
     padding: .7rem;
 }
 
+.line_through {
+    text-decoration: line-through;
+}
+
 
 
 
 
 @media screen and (max-width: 768px) {
+
 .sidebar_main {
     flex-direction: column;
 }
@@ -214,10 +229,10 @@ div > .farm_location > h3 {
 
 .main_nav {
    background: rgba(0, 0, 0, .4);
-   border-radius: 10px;
    display: flex;
    padding: 0px 20px;
    max-height: 0;
+   opacity: 0;
    overflow: hidden;
 }
 
@@ -262,8 +277,11 @@ label {
     padding: 10px;
 }
 
+
 input:checked ~ .main_nav {
+    opacity: 1;
     max-height: 100%;
+    transition: all ease-in 300ms;
 }
 
 input#menu {
@@ -276,8 +294,14 @@ input#menu {
     align-items: center;
     padding: 2rem;
     }
+
 .main {
     font-size: 1.3rem;
+    padding: .8rem;
+}
+
+.main2 {
+    padding: .8rem;
 }
 
 .discover_menu {
@@ -299,6 +323,10 @@ input#menu {
 
 .home_cardpan, .home_cardeggs, .home_cardmaple {
     padding: 0;
+}
+
+.menu_choices {
+    font-size: 1.4rem;
 }
 
 }
