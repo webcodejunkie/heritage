@@ -1,5 +1,6 @@
 ﻿@import 'styledelements.css';
 @import 'menu.css';
+@import 'info.css';
 
 body {
     margin: 0;
@@ -158,7 +159,7 @@ footer {
 }
 
 .footer_main {
-    background: url('css imgs/banner3.jpeg') no-repeat center;
+    background: url('css imgs/heritagefarm.jpg') no-repeat center;
     background-size: cover;
     height: auto;
     padding: 3rem;
@@ -321,12 +322,12 @@ input#menu {
     padding: .7rem;
 }
 
-.home_cardpan, .home_cardeggs, .home_cardmaple {
-    padding: 0;
-}
-
 .menu_choices {
     font-size: 1.4rem;
+}
+
+.home_cardpan, .home_cardeggs, .home_cardmaple {
+    padding: 0;
 }
 
 }
