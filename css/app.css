@@ -159,6 +159,8 @@ footer {
 }
 
 .footer_main {
+    display: flex;
+    justify-content: center;
     background: url('css imgs/heritagefarm.jpg') no-repeat center;
     background-size: cover;
     height: auto;
@@ -193,6 +195,9 @@ footer {
 }
 
 .footer_cwrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
     background: rgba(0, 0, 0, .5);
     padding: .5rem;
     color: aliceblue;
