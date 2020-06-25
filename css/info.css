@@ -29,13 +29,35 @@
     color: white;
 }
 
+img {
+    transition: all ease 2s;
+    width: 450px;
+
+}
+
+.img_who {
+    transform: scale(1);
+    transition: all ease 2s;
+}
+
+.img_who:hover {
+    transform:scale(1.06);
+    transition: all ease 2s;
+}
+
+
 @media screen and (max-width:768px) {
 .farm_gallery {
     padding: 0;
 }
 
 .fimgs {
-    padding: .4rem;
+    padding: .4rem 0;
 }
+
+img {
+    width: 300px;
+}
+
 
 }
