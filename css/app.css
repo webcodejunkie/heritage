@@ -325,6 +325,7 @@ input#menu {
 
 .menu_content {
     padding: .7rem;
+    width: auto;
 }
 
 .menu_choices {
