@@ -219,13 +219,14 @@ div > .farm_location > h3 {
     text-decoration: line-through;
 }
 
-
+.animate__animated animate__fadeInUp {
+    --animate-duration: 2.8s;
+}
 
 
 
 @media screen and (max-width: 768px) {
-
-.sidebar_main {
+    .sidebar_main {
     flex-direction: column;
 }
 
