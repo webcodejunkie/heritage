@@ -219,8 +219,8 @@ div > .farm_location > h3 {
     text-decoration: line-through;
 }
 
-.animate__animated animate__fadeInUp {
-    --animate-duration: 2.8s;
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 2.2s;
 }
 
 
