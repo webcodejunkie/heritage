@@ -29,6 +29,21 @@
     color: white;
 }
 
+.weare_container {
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+}
+
+.paragraphE {
+    font-family: Arial;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.sig_pic {
+    width: 150px;
+}
+
 img {
     transition: all ease 2s;
     width: 450px;
@@ -51,12 +66,12 @@ img {
     padding: 0;
 }
 
-.fimgs {
-    padding: .4rem 0;
-}
-
 img {
     width: 300px;
+}
+
+.weare_container {
+    padding: 1.7rem;
 }
 
 
