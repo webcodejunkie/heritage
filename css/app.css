@@ -223,6 +223,17 @@ div > .farm_location > h3 {
     --animate-duration: 2.2s;
 }
 
+.contact_form {
+    background: rgba(0, 0, 0, .5);
+    padding: 2rem;
+    color: white;
+    width: auto;
+}
+
+.contact_background {
+    background: url('css imgs/heritage_farm_contact.jpg') no-repeat center;
+    background-size: cover;
+}
 
 
 @media screen and (max-width: 768px) {
